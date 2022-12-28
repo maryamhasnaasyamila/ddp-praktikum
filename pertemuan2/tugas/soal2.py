@@ -21,7 +21,7 @@ for number in range(banyak_angka):
 # number adalah nama variabelnya.
 # fungsi for adalah untuk melakukan perulangan.
 # fungsi range adalah untuk membatasi hasil yang keluar dalam batasan variabel banyak_angka (inputan banyaknya angka).
-    inp_number = int(input("Masukkan angka ke-%d: " % (number+1)))
+    inp_number = float(input("Masukkan angka ke-%d: " % (number+1)))
     # inputan angka ke-n dalam bentuk integer/numerik (angka ke-n bergantung pada banyaknya angka yang di input di awal).
     # %d untuk menggantikan angka ke-n yang belum terdefinisi.
     # % (number+1) adalah pendefinisian nilainya. kenapa +1? agar angka ke-n dimulai dari 1.
